@@ -34,4 +34,8 @@ QueryAPI
 ![Alt Query API working](img/QueryService.png)
 
 
-After adding the changes to React
+After adding the changes to React change
+
+![Alt Working in Web](img/Integrating_query_service_in_react.png)
+
+This seamless operation highlights the strength of microservices in enabling independent functionality. Even with the post service on port 4000 and the comments service on port 4001 offline, the application delivers previous posts and comments to users. The query service's independent data storage and its synchronization via the event bus exemplify the microservices' capability. Continuously updated through events, the query service ensures uninterrupted access to existing data, showcasing the robustness of a microservices architecture. Furthermore, by maintaining separate records and employing the event-driven model, the query service avoids the need for multiple calls to the comment service from the post service every time a new comment is created, streamlining data access and enhancing efficiency within the architecture. 
