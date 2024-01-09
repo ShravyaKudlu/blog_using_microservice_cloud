@@ -5,6 +5,8 @@ const axios  = require('axios');
 const app = express();
 app.use(bodyParser.json());
 
+const events = [];
+
 app.post('/events',(req, res) => {
     const event = req.body;
 
@@ -26,7 +28,7 @@ app.post('/events',(req, res) => {
 });
 
 app.get('/events',(req,res) =>{
-  res.send({events});
+  res.send(events);
 });
 
 app.listen(4005, () =>{
