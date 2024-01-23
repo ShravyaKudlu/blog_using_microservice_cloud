@@ -1,3 +1,30 @@
+This is a blog/tweetclone application using microservices.
+
+Here I have created 4 microservice namely
+
+1 Post      :   Posts the blog or creates 
+2 Comment   :   Comment on the Post that is created, This is specific towards the post
+3 Moderation:   Evaluates the comment and doesnt allow the user to comment the word 'Orange' 
+4 Query     :   Displays all the post and comments to the user
+
+SKills/tools and Libraries: ReactJS, NodeJS, Axios, ExpressJS, CORS, APIIntegration
+
+Here a note is that I have also created my own event bus api that connects all these services.
+If Post stops working, the query service will be still active and you can view the posts and comments of existing items
+
+To run this code you'll need to navigate to branch syncingevent with no discrupency and open different folder and run the command npm start. 
+
+Now My next step is to dockerize the services.
+
+
+
+
+
+
+Some Prefix of my understanding of different types of architchure.
+
+
+
 This is a Application that I'll create using Microservice Architechure.
 
 Monolithic Architecture is an architectural style for designing software applications where all components of the application are tightly integrated into a single codebase, and they run as a single process. This approach contrasts with a microservices architecture, where the application is broken down into smaller, loosely coupled services that run independently. Here's an explanation of the issues you mentioned in the context of monolithic architecture:
