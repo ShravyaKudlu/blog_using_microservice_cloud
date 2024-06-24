@@ -92,4 +92,5 @@ Challenges and Solutions
             Benefit: Streamlines the development workflow, reducing manual steps and ensuring quick iterations. 
 
 
-![Alt text](https://www.kapwing.com/w/7Ly2pR3Kiw)
+![Alt text](img/npmvssckaffold.gif)
+
