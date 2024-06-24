@@ -55,13 +55,13 @@ Workflow Example
         Event-Bus broadcasts the "CommentModerated" event to relevant services (e.g., Query Service to update its data store).
 ![Alt text](img/SyncingEvents.png)
 
-By leveraging a microservice architecture and an event-driven design, the blog application can scale efficiently and handle various tasks asynchronously, ensuring a responsive user experience and maintainable codebase.Enhancing Development Workflow with Docker, Kubernetes, and Skaffold
+By leveraging a microservice architecture and an event-driven design, the blog application can scale efficiently and handle various tasks asynchronously, ensuring a responsive user experience and maintainable codebase.
 
 
 
 
-**
-Enhancing Development Workflow with Docker, Kubernetes, and Skaffold:**
+
+**Enhancing Development Workflow with Docker, Kubernetes, and Skaffold**
 
 
 
