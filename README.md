@@ -2,6 +2,7 @@
 
 The project aimed to understand and implement a microservice architecture that could be scaled efficiently. To achieve this, I developed a blog application with several key features, including the ability for users to post blogs, receive comments on their blogs, and have specific comments moderated based on certain keywords.
 Components of the Blog Application
+![Alt text](img/Working.png)
 
 The blog application consists of the following components:
 
@@ -52,6 +53,7 @@ Workflow Example
         Moderator Service checks if the comment contains the word "orange".
         If the comment contains "orange", it updates the comment status and emits a "CommentModerated" event.
         Event-Bus broadcasts the "CommentModerated" event to relevant services (e.g., Query Service to update its data store).
+(img/SyncingEvents.png)
 
 By leveraging a microservice architecture and an event-driven design, the blog application can scale efficiently and handle various tasks asynchronously, ensuring a responsive user experience and maintainable codebase.Enhancing Development Workflow with Docker, Kubernetes, and Skaffold
 
