@@ -53,17 +53,13 @@ Workflow Example
         Moderator Service checks if the comment contains the word "orange".
         If the comment contains "orange", it updates the comment status and emits a "CommentModerated" event.
         Event-Bus broadcasts the "CommentModerated" event to relevant services (e.g., Query Service to update its data store).
+
+![Alt text](img/architecture.png)
 ![Alt text](img/SyncingEvents.png)
 
 By leveraging a microservice architecture and an event-driven design, the blog application can scale efficiently and handle various tasks asynchronously, ensuring a responsive user experience and maintainable codebase.
 
-
-
-
-
 **Enhancing Development Workflow with Docker, Kubernetes, and Skaffold**
-
-
 
 To address the challenge of managing multiple services and workflows, Docker, Kubernetes, and Skaffold were employed. These tools streamline development and deployment processes, especially when scaling to a cloud environment.
 Challenges and Solutions
@@ -89,8 +85,6 @@ Challenges and Solutions
     Challenge: Continuous Development and Deployment
         Solution: Skaffold for Continuous Development
             Skaffold: Automates the build, push, and deploy processes, making it easier to manage changes and updates across all services.
-            Benefit: Streamlines the development workflow, reducing manual steps and ensuring quick iterations. 
-
+            Benefit: Streamlines the development workflow, reducing manual steps and ensuring quick iterations.
 
 ![Alt text](img/npmvssckaffold.gif)
-
