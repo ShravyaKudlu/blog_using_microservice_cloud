@@ -33,7 +33,7 @@ app.post('/posts/create', async (req, res) => {
 });
 
 app.post('/events', (req,res) =>{
-    console.log('Recienved Event', req.body.type);
+    console.log('Received Event', req.body.type);
 
     res.send({});
 });
@@ -41,5 +41,6 @@ app.post('/events', (req,res) =>{
 
 
 app.listen(4000, () =>{
+    console.log('v1000')
     console.log('Listening to port 4000');
 });
